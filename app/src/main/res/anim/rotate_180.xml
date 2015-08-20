@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <rotate
+        android:duration="@integer/rotate_180_duration"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:toDegrees="180" />
+
+    <scale
+        android:duration="1000"
+        android:fromXScale="100%"
+        android:fromYScale="100%"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="1000"
+        android:toXScale="150%"
+        android:toYScale="150%" />
+
+</set>

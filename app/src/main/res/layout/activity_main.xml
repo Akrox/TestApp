@@ -4,10 +4,13 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/oka_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/oka"
         android:layout_centerInParent="true"
-        android:textSize="@dimen/oka_text_size"/>
+        android:background="@drawable/oka_button"
+        android:padding="10dp"
+        android:text="@string/oka"
+        android:textSize="@dimen/oka_text_size" />
 
 </RelativeLayout>
